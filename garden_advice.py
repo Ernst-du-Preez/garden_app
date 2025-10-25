@@ -1,6 +1,7 @@
 # Hardcoded values for the season and plant type
 Enter the current season (e.g., summer, winter, spring, autumn): Winter
-plant_type = "flower"  # TODO: Replace with input() to allow user interaction.
+plant_type = input("Enter the type of plant (e.g., flower, tree, shrub, herb): ").lower()
+
 
 # Variable to hold gardening advice
 advice = ""
@@ -29,6 +30,7 @@ print(advice)
 # - Refactor the code into functions for better readability and modularity.
 # - Store advice in a dictionary for multiple plants and seasons.
 # - Recommend plants based on the entered season.
+
 
 
 
